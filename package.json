@@ -1,0 +1,28 @@
+{
+  "name": "smarthomebot_web0",
+  "version": "1.0.0",
+  "description": "SmartHome ChatBot0 with Rasp 4",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hthuan02/SmartHome-ChatBot0.git"
+  },
+  "author": "hthuan02",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hthuan02/SmartHome-ChatBot0/issues"
+  },
+  "homepage": "https://github.com/hthuan02/SmartHome-ChatBot0#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
+  }
+}
